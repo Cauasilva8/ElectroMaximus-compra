@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(wepik-export-20240403174137mw5r.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.caixa-formulario{
+    position: relative;
+    width: 50%;
+    height: 720px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;  
+}
+
+.caixa-input{
+    position: relative;
+    margin: 30px 0px;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+}
+
+
+.caixa-input label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.caixa-input{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.caixa-input input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+input:focus ~ label,
+input:not(:placeholder-shown) ~ label {
+    opacity: 0;
+}
+
+.caixa-input input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+button a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+button a:hover{
+    text-decoration: underline;
+}
+
+.dois{
+    display: flex;
+    position: relative;
+    margin: 30px 0px;
+    width: 310px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.dois input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 40px 0 0px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    justify-content: space-between;
+}
+
+.dois label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.valor-formulario{
+    width: 80%;
+}
+
+#solucao{
+    display: flex;
+    justify-content: space-between;
+}
+
+#fim{
+    margin-left: 33px;
+}
+
+#fim label{
+    left: 40px;
+}
